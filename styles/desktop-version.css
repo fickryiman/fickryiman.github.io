@@ -203,7 +203,7 @@ html {
 
   .projects-section > div:nth-child(4) > .project-info {
     margin-top: 15vh;
-    background: rgba(26, 34, 54, 0.95);
+    background: #1a2236;
     backdrop-filter: blur(12px);
     color: #fff;
     height: fit-content;
@@ -359,6 +359,7 @@ html {
 
   .projects-section > div:nth-child(9) > .project-info {
     background: #1a2236;
+    backdrop-filter: blur(12px);
     color: #fff;
   }
 
