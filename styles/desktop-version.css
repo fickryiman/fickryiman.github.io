@@ -353,8 +353,8 @@ html {
     width: 35vw;
     height: auto;
     position: relative;
-    top: -14vh;
-    right: -3.8vh;
+    top: -58.5%;
+    right: -50%;
   }
 
   .projects-section > div:nth-child(9) > .project-info {
@@ -366,7 +366,7 @@ html {
   .projects-section > div:nth-child(9) > .project-info > .project-name {
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 3%;
     padding-top: 3%;
     margin-top: 0;
@@ -382,7 +382,7 @@ html {
 
   .projects-section > div:nth-child(9) > .project-info > .stack-list > .stack {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 10px;
     color: #1a2236;
     background: #98dede;
     padding: 1.5%;
@@ -394,7 +394,7 @@ html {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     text-align: left;
     color: #1a2236;
