@@ -233,6 +233,7 @@ html {
   background: #1a2236;
   backdrop-filter: blur(0.5px);
   height: fit-content;
+  padding-left: 5%;
 }
 
 .projects-section > div:nth-child(4) > div > .project-name {
@@ -244,7 +245,6 @@ html {
   line-height: 80%;
   color: #fff;
   padding-top: 3.5vh;
-  padding-left: 5%;
   padding-bottom: 5%;
 }
 
@@ -365,6 +365,7 @@ html {
 
 .projects-section > div:nth-child(7) > .project-img-rectangle {
   width: 100%;
+  margin-top: -10px;
 }
 
 .projects-section > div:nth-child(7) > .project-info {
@@ -386,6 +387,7 @@ html {
 
 .projects-section > div:nth-child(8) > .project-img-rectangle {
   width: 100%;
+  margin-top: -10px;
 }
 
 .projects-section > div:nth-child(8) > .project-info {

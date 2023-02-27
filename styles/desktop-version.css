@@ -252,7 +252,7 @@ html {
     grid-row: 2;
     display: grid;
     grid-template-columns: repeat(3, 10%);
-    padding-top: 1vh;
+    padding-top: 0;
   }
 
   .projects-section > div:nth-child(5) > .project-img-rectangle {
@@ -303,13 +303,14 @@ html {
   }
 
   .projects-section > div:nth-child(6) > .project-img-rectangle_2 {
-    display: initial;
+    display: flex;
     grid-column: 5 / 7;
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: fill;
     align-self: end;
-    justify-self: end;
+    margin-left: 9px;
+    
   }
 
   .projects-section > div:nth-child(6) > .project-info {
@@ -324,10 +325,11 @@ html {
   }
 
   .projects-section > div:nth-child(7) > .img-small {
-    display: initial;
+    display: flex;
     grid-column: 1 / 5;
     justify-content: space-between;
     height: 30%;
+    margin-right: -9px;
   }
 
   .projects-section > div:nth-child(7) > .project-img-rectangle {
@@ -335,6 +337,8 @@ html {
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-top: -1px;
+    margin-left: 9px;
   }
 
   .projects-section > div:nth-child(7) > .project-info {
