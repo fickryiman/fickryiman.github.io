@@ -5,9 +5,16 @@ List all points that i have checked:
   * Some image doesn't have alt with appropriate alternative text
   * Update image alt with appropriate alternative text
 > Text headings
+  * no issues found
 > Color contrast
+  * no issues found
 > Resize
+  * no issues found
 > Interaction
+  * make the hover behaviour is same with the similar
 > Moving content
+  * no issues found
 > Multimedia
+  * no issues found
 > The basic structure of the page
+  * no issues found

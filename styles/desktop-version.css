@@ -122,7 +122,7 @@ html {
     border: none;
     margin-top: 1vh;
     cursor: pointer;
-    transition-duration: 0.4s;
+    transition: all 0.5s ease-in-out;
     overflow: hidden;
     box-shadow: 0 5px 10px #193047;
     border-radius: 3px;
@@ -150,7 +150,7 @@ html {
     transition: 0s;
   }
 
-  .button:focus {
+  .button-collaboration:focus {
     outline: 0;
   }
 
@@ -208,6 +208,7 @@ html {
     color: #fff;
     height: fit-content;
     justify-self: end;
+    padding-left: 0;
   }
 
   .projects-section > div:nth-child(4) > div > .project-name {
@@ -238,13 +239,19 @@ html {
   .projects-section > div:nth-child(4) > div > button {
     background: #fff;
     color: #1a2236;
-    margin: 5% 0 5% 4%;
+    margin: 0 0 5% 4%;
     padding: 1.5% 3.5%;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     text-align: center;
+  }
+
+  .projects-section > div:nth-child(4) > div > button:hover {
+    background: #1a2236;
+    color: #fff;
+   
   }
 
   .projects-section > div:nth-child(5) {
@@ -389,6 +396,11 @@ html {
     color: #1a2236;
     background: #98dede;
     padding: 1.5%;
+  }
+
+  .projects-section > div:nth-child(9) > .project-info > .stack-list > .stack:hover {
+    background: #1a2236;
+    color: #fff;
   }
 
   .projects-section > div:nth-child(9) > .project-info > button {
@@ -594,6 +606,8 @@ html {
     margin-top: 5%;
     margin-bottom: 20%;
     margin-left: 28%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
   }
 
   .button-get-started:hover {
@@ -601,11 +615,27 @@ html {
     color: #1a2236;
     font-weight: 500;
     border: solid 1px #1a2236;
+    box-shadow: 0 2px 10px 5px #1abc9c;
   }
 
-  .button-get-started:active {
-    background: #1a2236;
-    color: #fff;
+  .button-get-started::after {
+    content: "";
+    background: #1abc9c;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .button-get-started:active::after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  .button-get-started:focus {
+    outline: 0;
   }
 
   .footer {

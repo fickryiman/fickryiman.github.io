@@ -254,7 +254,7 @@ html {
   width: auto;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 11px;
   line-height: 80%;
   color: #1a2236;
@@ -266,18 +266,16 @@ html {
 
 .projects-section > div:nth-child(4) > div > .stack-list li {
   background: #98dede;
-  padding: 10px 15px 10px 15px;
+  padding: 15px 15px 15px 15px;
   letter-spacing: 0.1em;
   width: fit-content;
 }
 
 .projects-section > div:nth-child(4) > div > .stack-list li:hover {
   background: #1a2236;
-  padding: 10px 15px 10px 15px;
-  letter-spacing: 0.1em;
   color: #fff;
-  font-weight: 500;
   border: 1px solid #fff;
+  transition: all 0.5s ease-in-out;
 }
 
 .projects-section > div:nth-child(4) > div > button {
