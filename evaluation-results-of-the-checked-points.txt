@@ -1,0 +1,13 @@
+List all points that i have checked:
+> Page titles: Fickry Portfolio
+  * changes to Fickry Portfolio home page
+> Image text alternatives
+  * Some image doesn't have alt with appropriate alternative text
+  * Update image alt with appropriate alternative text
+> Text headings
+> Color contrast
+> Resize
+> Interaction
+> Moving content
+> Multimedia
+> The basic structure of the page
