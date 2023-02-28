@@ -86,11 +86,11 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="fickryiman.github.io"></a>
+## 🚀 Live Demo <a name=""></a>
 
 <!-- > Add a link to your deployed project. -->
 
-- [Fickry Iman Portfolio](https://fickryiman.github.io)
+- [Live Demo Link](https://fickryiman.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
