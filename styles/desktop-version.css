@@ -251,7 +251,6 @@ html {
   .projects-section > div:nth-child(4) > div > button:hover {
     background: #1a2236;
     color: #fff;
-   
   }
 
   .projects-section > div:nth-child(5) {
@@ -403,7 +402,7 @@ html {
     color: #fff;
   }
 
-  .projects-section > div:nth-child(9) > .project-info > button {
+  .projects-section > div:nth-child(9) > .project-info > .see-project {
     width: fit-content;
     background: #fff;
     font-family: 'Poppins', sans-serif;
@@ -420,7 +419,7 @@ html {
     margin-left: 3%;
   }
 
-  .projects-section > div:nth-child(9) > .project-info > button:hover {
+  .projects-section > div:nth-child(9) > .project-info > .see-project:hover {
     background: #1a2236;
     color: #fff;
     font-weight: 700;
