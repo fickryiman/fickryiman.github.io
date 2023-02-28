@@ -90,7 +90,7 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](https://fickryiman.github.io)
+- [Click here... for live demo link](https://fickryiman.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
