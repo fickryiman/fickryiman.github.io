@@ -360,6 +360,10 @@ html {
     right: -50%;
   }
 
+  .projects-section > div:nth-child(9) > .project-img-rectangle {
+    margin-top: -0.2%;
+  }
+
   .projects-section > div:nth-child(9) > .project-info {
     background: #1a2236;
     backdrop-filter: blur(12px);
