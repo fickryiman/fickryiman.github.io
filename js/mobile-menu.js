@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('.hamburger-icon');
 const mobileNav = document.querySelector('.mobile-navigation');
 const defaultNav = document.querySelector('.navigation-menu');
-const xButton = document.querySelector('.img-x')
+const xButton = document.querySelector('.img-x');
 
 function displayMobileMenu() {
   defaultNav.style.display = 'none';
