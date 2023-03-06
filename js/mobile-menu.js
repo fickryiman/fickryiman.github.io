@@ -5,12 +5,12 @@ let x_button = document.querySelector('.img-x')
 
 function displayMobileMenu() {
   default_nav.style.display = 'none';
-  mobile_nav.style.display = 'block';
+  mobile_nav.style.display = 'unset';
 }
 
 function hideMobileMenu() {
   mobile_nav.style.display = 'none';
-  default_nav.style.display = 'block';
+  default_nav.style.display = 'unset';
 }
 
 hamburger.addEventListener('click', displayMobileMenu);
