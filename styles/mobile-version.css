@@ -90,11 +90,11 @@ a {
   font-weight: 500;
 }
 
-.mid-mobile-menu > ul > li{
+.mid-mobile-menu > ul > li {
   cursor: pointer;
 }
 
-.mid-mobile-menu > ul > li:hover{
+.mid-mobile-menu > ul > li:hover {
   color: #e2505c;
 }
 
@@ -109,6 +109,7 @@ a {
   width: 100%;
   height: auto;
 }
+
 /* end of mobile-menu */
 
 .flex-main {
