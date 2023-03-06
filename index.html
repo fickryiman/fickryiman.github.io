@@ -16,10 +16,10 @@
 <body>
   <nav class="navigation-menu">
     <ul class="desktop-nav">
-      <li>Hello</li>
-      <li>Portfolio</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li><a href="#hello">Hello</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     <ul class="flex-header">
       <li class="flex-item">
@@ -27,13 +27,39 @@
       </li>
       <li class="flex-item"></li>
       <li class="flex-item">
-        <nav>
+        <nav class="hamburger-icon">
           <a href="#"><img src="./images/ic_menu.png" alt="ic_menu" class="ic-menu" srcset=""></a>
         </nav>
       </li>
     </ul>
   </nav>
-  <main class="flex-main">
+
+  <!-- mobile-menu, toggle -->
+  <nav class="mobile-navigation">
+    <div class="top-img-x">
+      <img src="./images/image_geometry_menu_1.png" alt="group98" class="img-x-left">
+      <a href="#" class="a-img-x">
+        <img src="./images/Union.png" alt="union" class="img-x">
+      </a> 
+    </div>
+    <div class="mid-mobile-menu">
+      <ul>
+        <li><a href="#hello">Hello</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="end-dot">
+      <img src="./images/Group 50.png" alt="group50" class="dot-b-image">
+    </div>
+    <div class="bottom-img">
+      <img src="./images/Mask Group.png" alt="maskgroup" class="mask-image">
+    </div>
+  </nav>
+  <!-- end of mobile-menu, toggle -->
+
+  <main class="flex-main" id="hello">
     <div class="greetings">
       <h1 class="name">Fickry <br>Bil Iman</h1>
       <h3>Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</h3>
@@ -43,7 +69,7 @@
     <img src="./images/image_dots.png" class="dot-image-1" alt="" srcset="">
     <img src="./images/image-geometry_1.png" class="big-image-1" alt="" srcset="">
   </main>
-  <section class="projects-section">
+  <section class="projects-section" id="portfolio">
     <img src="./images/image_geometry_2.png" alt="image_geometry_2" class="img-projects" srcset="">
     <h1 class="section-title">Projects</h1>
     <img src="./images/image_dots.png" class="dot-image-2" alt="" srcset="">
@@ -145,7 +171,7 @@
     <img src="./images/Group116.png" class="about-images-desktop" alt="" srcset="">
   </div>
   <div class="all-about">
-    <section class="about-section">
+    <section class="about-section" id="about">
       <h1 class="section-title">About</h1>
       <div class="greetings">
         <h3>Hello! <u>Fickry Bil Iman</u> Here.. If you like what you see and have a project you need coded, don’t hesitate to contact me.</h3>
@@ -189,7 +215,7 @@
     </section>
   </div>
 
-  <div class="get-started-background">
+  <div class="get-started-background" id="contact">
     <img src="./images/image_geometry_3.png" alt="" class="img-before-get-started">
     <img src="./images/image-geometry_6.png" alt="" class="img-before-get-started_desktop" srcset="">
     <img src="./images/image-geometry_7.png" class="image-after-started-image" alt="" srcset="">
@@ -255,6 +281,8 @@
       <img src="./images/ic_angellist.png" alt="" srcset="">
     </div>
   </footer>
+
+  <script src="./js/mobile-menu.js"></script>
   
 </body>
 </html>

@@ -16,6 +16,10 @@ html {
   display: none;
 }
 
+a {
+  all: unset;
+}
+
 .navigation-menu {
   border-bottom: none;
 }
@@ -37,9 +41,75 @@ html {
 
 .ic-menu {
   flex-grow: 2;
-  padding-top: 25px;
-  padding-right: 25px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
 }
+
+/* mobile-menu */
+.mobile-navigation {
+  display: none;
+}
+
+.top-img-x {
+  display: flex;
+}
+
+.img-x-left {
+  width: 80%;
+  cursor: pointer;
+}
+
+.a-img-x {
+  flex-grow: 1;
+}
+
+.img-x {
+  width: 20px;
+  height: auto;
+  padding: 35%;
+}
+
+.mid-mobile-menu {
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.mid-mobile-menu > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 50px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.mid-mobile-menu > ul > li{
+  cursor: pointer;
+}
+
+.mid-mobile-menu > ul > li:hover{
+  color: #e2505c;
+}
+
+.dot-b-image {
+  width: 55px;
+  height: auto;
+  padding-bottom: 10%;
+  padding-left: 20%;
+}
+
+.mask-image {
+  width: 100%;
+  height: auto;
+}
+/* end of mobile-menu */
 
 .flex-main {
   display: flex;
