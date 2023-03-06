@@ -1,17 +1,17 @@
-let hamburger = document.querySelector('.hamburger-icon');
-let mobile_nav = document.querySelector('.mobile-navigation');
-let default_nav = document.querySelector('.navigation-menu');
-let x_button = document.querySelector('.img-x')
+const hamburger = document.querySelector('.hamburger-icon');
+const mobileNav = document.querySelector('.mobile-navigation');
+const defaultNav = document.querySelector('.navigation-menu');
+const xButton = document.querySelector('.img-x')
 
 function displayMobileMenu() {
-  default_nav.style.display = 'none';
-  mobile_nav.style.display = 'unset';
+  defaultNav.style.display = 'none';
+  mobileNav.style.display = 'unset';
 }
 
 function hideMobileMenu() {
-  mobile_nav.style.display = 'none';
-  default_nav.style.display = 'unset';
+  mobileNav.style.display = 'none';
+  defaultNav.style.display = 'unset';
 }
 
 hamburger.addEventListener('click', displayMobileMenu);
-x_button.addEventListener('click', hideMobileMenu);
+xButton.addEventListener('click', hideMobileMenu);
