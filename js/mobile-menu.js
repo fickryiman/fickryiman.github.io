@@ -15,4 +15,3 @@ function hideMobileMenu() {
 
 hamburger.addEventListener('click', displayMobileMenu);
 xButton.addEventListener('click', hideMobileMenu);
-mobileNav.addEventListener('click', hideMobileMenu);
