@@ -31,8 +31,8 @@ function closeProjectDetails() {
   modal.style.display = 'none';
 }
 
-projectsDetails.forEach(project => {
+projectsDetails.forEach((project) => {
   project.addEventListener('click', displayProjectDetails);
-})
+});
 
 xModalButton.addEventListener('click', closeProjectDetails);

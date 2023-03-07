@@ -508,7 +508,7 @@ span {
 /* modal project details */
 .modal-project {
   display: none;
-  position:fixed;
+  position: fixed;
   z-index: 1;
   left: 0;
   top: 0;
@@ -588,7 +588,7 @@ span {
   gap: 3px;
 }
 
-.modal-img-lists > img:nth-child(1) {
+.modal-img-lists > .first-img {
   border: 3px solid black;
   gap: 0;
 }
@@ -603,7 +603,7 @@ span {
   padding: 5% 5% 0;
 }
 
-.modal-project-details-text h3 {
+.modal-project-details-text-h3 {
   font-size: 21px;
   font-weight: 400;
 }
@@ -616,18 +616,18 @@ span {
   padding-top: 0;
 }
 
-.modal-buttons p {
+.modal-buttons-p {
   border: 1px solid black;
   width: 70%;
   text-align: center;
   padding: 20px;
   font-size: 23px;
-  font-weight: 600;  
+  font-weight: 600;
   cursor: pointer;
   margin: 5%;
 }
 
-.modal-buttons > p:nth-child(1) > span > img {
+.modal-buttons-p > .modal-img-ic-link {
   width: 30px;
   height: auto;
   margin-right: -70px;
@@ -635,7 +635,7 @@ span {
   padding-left: 70px;
 }
 
-.modal-buttons > p:nth-child(2) > span > img {
+.modal-buttons-p > .modal-img-ic-github {
   width: 30px;
   height: auto;
   margin-right: -50px;
