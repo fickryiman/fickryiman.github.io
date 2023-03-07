@@ -1,3 +1,4 @@
+// toggle show-hide mobile menu
 const hamburger = document.querySelector('.hamburger-icon');
 const mobileNav = document.querySelector('.mobile-navigation');
 const defaultNav = document.querySelector('.navigation-menu');
@@ -16,3 +17,7 @@ function hideMobileMenu() {
 hamburger.addEventListener('click', displayMobileMenu);
 xButton.addEventListener('click', hideMobileMenu);
 mobileNav.addEventListener('click', hideMobileMenu);
+
+// modal for project details
+const modal = document.querySelector('.modal-project');
+
