@@ -9,7 +9,8 @@ html {
 @media screen and (min-device-width: 768px),
   screen and (min-width: 768px) {
   .flex-header,
-  .img-projects {
+  .img-projects,
+  .mobile-navigation {
     display: none;
   }
 
