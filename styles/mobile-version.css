@@ -506,6 +506,7 @@ span {
 }
 
 /* modal project details */
+
 /* .modal-project {
   display: none;
   position:fixed;
@@ -567,17 +568,17 @@ span {
   color: #fff;
   border: 1px solid #fff;
   font-weight: 500;
-}g
+}
 
 .modal-img-slider {
-  
+  display: flex;
+  justify-content: center;
 }
 
 .modal-img-slider-big {
   margin-top: 7%;
   width: 95%;
   height: auto;
-  
 }
 
 /* about css start here */

@@ -20,4 +20,3 @@ mobileNav.addEventListener('click', hideMobileMenu);
 
 // modal for project details
 const modal = document.querySelector('.modal-project');
-
