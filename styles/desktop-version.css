@@ -10,7 +10,8 @@ html {
   screen and (min-width: 768px) {
   .flex-header,
   .img-projects,
-  .mobile-navigation {
+  .mobile-navigation,
+  .modal-project {
     display: none;
   }
 
