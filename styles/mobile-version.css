@@ -505,6 +505,49 @@ span {
   padding-left: 25px;
 }
 
+/* modal project details */
+.modal-project-name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 80%;
+  letter-spacing: 0.02em;
+  color: #1a2236;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.modal-stack-list {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 80%;
+  color: #1a2236;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.modal-stack {
+  background: #fff;
+  padding: 10px 15px 10px 15px;
+  letter-spacing: 0.1em;
+  width: fit-content;
+}
+
+.modal-stack:hover {
+  background: #1a2236;
+  padding: 10px 15px 10px 15px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 500;
+}
+
+/* about css start here */
 .about-images-desktop {
   display: none;
 }
