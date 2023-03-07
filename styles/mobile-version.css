@@ -506,8 +506,7 @@ span {
 }
 
 /* modal project details */
-
-/* .modal-project {
+.modal-project {
   display: none;
   position:fixed;
   z-index: 1;
@@ -516,21 +515,22 @@ span {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(255, 255, 255, 0.1);
-} */
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgba(255, 255, 255, 1); /* Black w/ opacity */
+}
 
 .modal-x-button {
   display: flex;
   justify-content: flex-end;
 }
 
-.x-cross {
+.x-cross-modal {
   padding: 5%;
 }
 
 .modal-project-name {
   font-weight: 700;
-  font-size: 27px;
+  font-size: 28px;
   line-height: 80%;
   letter-spacing: 0.02em;
   color: #1a2236;
@@ -596,6 +596,51 @@ span {
 .modal-img-list-small {
   width: 22.7%;
   height: auto;
+}
+
+.modal-project-details-text {
+  text-align: justify;
+  padding: 5% 5% 0;
+}
+
+.modal-project-details-text h3 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.modal-buttons p {
+  border: 1px solid black;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  font-size: 23px;
+  font-weight: 600;  
+  cursor: pointer;
+  margin: 5%;
+}
+
+.modal-buttons > p:nth-child(1) > span > img {
+  width: 30px;
+  height: auto;
+  margin-right: -70px;
+  margin-bottom: -5px;
+  padding-left: 70px;
+}
+
+.modal-buttons > p:nth-child(2) > span > img {
+  width: 30px;
+  height: auto;
+  margin-right: -50px;
+  margin-bottom: -5px;
+  padding-left: 50px;
 }
 
 /* about css start here */
