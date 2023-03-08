@@ -73,9 +73,13 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
     <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
     <li><a href="https://www.javascript.com/">Javascript</a></li>
   </ul>
+</details>
+<details>
   <summary>Server Side / Back-End</summary>
   <ul>
-    <li></li>
+    <li><a href=""> - </a></li>
+    <li><a href=""> - </a></li>
+    <li><a href=""> - </a></li>
   </ul>
 </details>
 
