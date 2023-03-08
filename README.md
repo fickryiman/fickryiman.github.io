@@ -25,6 +25,8 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
+<h1>Portfolio</h1>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -52,6 +54,7 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Portfolio: Responsive Portfolio <a name="about-project"></a>
+This project is about creating a personal portfolio to showcase my activities, backgrounds and experiences.
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
@@ -64,14 +67,47 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 <!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
 <details>
-  <summary>Client</summary>
+  <summary>Client Side / Front-End</summary>
   <ul>
     <li><a href="https://www.w3.org/html/">HTML</a></li>
     <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
+  </ul>
+  <summary>Server Side / Back-End</summary>
+  <ul>
+    <li></li>
   </ul>
 </details>
 
 <!-- Features -->
+
+### Tools i have used for this project <a name="tools"></a>
+  <details>
+    <summary>Code Convention, Code Analysis</summary>
+      <ul>
+        <li><a href="https://eslint.org/">ESLint</a></li>
+        <li><a href="https://webhint.io/">Webhint</a></li>
+        <li><a href="https://stylelint.io/">Stylelint</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en">Lighthouse</a></li>
+        <li><a href="https://www.npmjs.com/package/npm-check">node_modules checker</a></li>
+      </ul>
+  </details>
+  <details>
+    <summary>Version Control, CI/CD, Hosting Service</summary>
+      <ul>
+        <li><a href="https://pages.github.com/">Github Pages</a></li>
+        <li><a href="https://github.com/features/actions">Github Actions</a></li>
+        <li><a href="https://git-scm.com/">Git</a></li>
+      </ul>
+  </details>
+  <details>
+    <summary>IDE, Desktop Apps, Other Tools</summary>
+      <ul>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+        <li><a href="https://desktop.github.com/">Github Desktop</a></li>
+        <li><a href="https://www.figma.com/">Figma</a></li>
+      </ul>
+  </details>
 
 ### Key Features <a name="key-features"></a>
 
