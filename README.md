@@ -246,7 +246,7 @@ Feel free to check the [git@github.com:fickryiman/fickryiman.github.io.git](../.
 
 <!-- > Write a message to encourage readers to support your project -->
 
-If you like this project please follow me on github or connect on Linkedin.
+If you like this project please follow me on GitHub: [@fickryiman](https://github.com/fickryiman) or connect on LinkedIn: [fickry-bil-iman](https://www.linkedin.com/in/fickry-bil-iman).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -278,10 +278,10 @@ I would like to thank Allah, my Family, Microverse for all of the experiences.
 
 <!-- LICENSE -->
 
-<!-- ## 📝 License <a name="license"></a>
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
