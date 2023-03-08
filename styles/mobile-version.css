@@ -649,6 +649,10 @@ span {
   padding-left: 50px;
 }
 
+.left-right-arrow-project {
+  display: none;
+}
+
 /* about css start here */
 .about-images-desktop {
   display: none;

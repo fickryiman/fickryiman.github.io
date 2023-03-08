@@ -10,8 +10,7 @@ html {
   screen and (min-width: 768px) {
   .flex-header,
   .img-projects,
-  .mobile-navigation,
-  .modal-project {
+  .mobile-navigation {
     display: none;
   }
 
@@ -426,7 +425,7 @@ html {
 
   /* modal project details */
   .modal-project {
-    background: #1a2236;
+    background-color: #1a2236;
   }
 
   .modal-desktop-container {
@@ -434,6 +433,67 @@ html {
     width: 85%;
     height: auto;
     margin: 7.2% auto;
+  }
+
+  .modal-project-name {
+    font-size: 40px;
+    text-align: left;
+    margin-top: -8%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+  }
+
+  .modal-stack-list {
+    justify-content: flex-start;
+    padding-left: 5%;
+    gap: 3%;
+  }
+
+  .modal-project-details-text {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .modal-project-details-text-h3 {
+    font-size: 15px;
+  }
+
+  .modal-buttons {
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .modal-buttons-p {
+    width: 30%;
+    font-size: 15px;
+    padding: 0.5% 0 0.5% 5%;
+    margin: 3% 3% 10% 0;
+    text-align: left;
+  }
+
+  .modal-img-ic-link {
+    width: 17px;
+    padding-left: 35%;
+    margin-bottom: -3px;
+  }
+
+  .modal-img-ic-github {
+    width: 19px;
+    padding-left: 15%;
+    margin-bottom: -3px;
+  }
+
+  .left-right-arrow-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .left-right-arrow-project p {
+    font-size: 15px;
+    margin-bottom: 5%;
   }
 
   .all-about {
@@ -631,8 +691,6 @@ html {
     background: #1a2236;
     color: #98dede;
     align-items: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
   }
 
   .footer h2 {
