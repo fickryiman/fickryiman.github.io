@@ -22,6 +22,7 @@ mobileNav.addEventListener('click', hideMobileMenu);
 const projectsDetails = document.querySelectorAll('.see-project');
 const modal = document.querySelector('.modal-project');
 const xModalButton = document.querySelector('.x-cross-modal');
+const detailsButtons = document.querySelectorAll('.modal-buttons-p');
 
 function displayProjectDetails() {
   modal.style.display = 'block';
@@ -36,3 +37,7 @@ projectsDetails.forEach((project) => {
 });
 
 xModalButton.addEventListener('click', closeProjectDetails);
+
+detailsButtons.forEach((button) => {
+  button.addEventListener('click', closeProjectDetails);
+});

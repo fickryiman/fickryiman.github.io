@@ -629,7 +629,7 @@ span {
 }
 
 .modal-buttons-p:hover {
-  background: #98dede;
+  background: rgba(190, 218, 244, 0.811);
   border: 2px solid #fff;
 }
 
