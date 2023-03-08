@@ -424,6 +424,18 @@ html {
     display: none;
   }
 
+  /* modal project details */
+  .modal-project {
+    background: #1a2236;
+  }
+
+  .modal-desktop-container {
+    background:#fff;
+    width: 85%;
+    height: auto;
+    margin: 7.2% auto;
+  }
+
   .all-about {
     display: none;
   }
