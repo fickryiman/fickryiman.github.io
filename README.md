@@ -25,6 +25,8 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
+<h1>Portfolio</h1>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -52,6 +54,7 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Portfolio: Responsive Portfolio <a name="about-project"></a>
+This project is about creating a personal portfolio to showcase my activities, backgrounds and experiences.
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
@@ -64,14 +67,53 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 <!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
 <details>
-  <summary>Client</summary>
+  <summary>Client Side / Front-End</summary>
   <ul>
     <li><a href="https://www.w3.org/html/">HTML</a></li>
     <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
   </ul>
 </details>
+<!--
+<details>
+  <summary>Server Side / Back-End</summary>
+  <ul>
+    <li><a href=""> - </a></li>
+    <li><a href=""> - </a></li>
+    <li><a href=""> - </a></li>
+  </ul>
+</details>
+-->
 
 <!-- Features -->
+
+### Tools i have used for this project <a name="tools"></a>
+  <details>
+    <summary>Code Convention, Code Analysis</summary>
+      <ul>
+        <li><a href="https://eslint.org/">ESLint</a></li>
+        <li><a href="https://webhint.io/">Webhint</a></li>
+        <li><a href="https://stylelint.io/">Stylelint</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en">Lighthouse</a></li>
+        <li><a href="https://www.npmjs.com/package/npm-check">node_modules checker</a></li>
+      </ul>
+  </details>
+  <details>
+    <summary>Version Control, CI/CD, Hosting Service</summary>
+      <ul>
+        <li><a href="https://pages.github.com/">Github Pages</a></li>
+        <li><a href="https://github.com/features/actions">Github Actions</a></li>
+        <li><a href="https://git-scm.com/">Git</a></li>
+      </ul>
+  </details>
+  <details>
+    <summary>IDE, Desktop Apps, Other Tools</summary>
+      <ul>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+        <li><a href="https://desktop.github.com/">Github Desktop</a></li>
+        <li><a href="https://www.figma.com/">Figma</a></li>
+      </ul>
+  </details>
 
 ### Key Features <a name="key-features"></a>
 
@@ -81,6 +123,7 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 - Responsive Website
 - Button Interactions (i.e. hover, etc.)
 - Attractive Images & Design
+- Modal/dialog
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +133,7 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 
 <!-- > Add a link to your deployed project. -->
 
-- [Click here... for live demo link](https://fickryiman.github.io)
+- [Click here... Live demo link](https://fickryiman.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,76 +148,57 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- git version 2.38.x
+- node.js version > 12.x
+- IDE
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:fickryiman/fickryiman.github.io.git
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
   cd my-project
-  gem install
+  node install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
+run live server
 
 <!--
-Example command:
-
 ```sh
   rails server
 ```
---->
+-->
 
 ### Run tests
 
 To run tests, run the following command:
-
-<!--
-Example command:
-
+Run Github Actions Test
 ```sh
-  bin/rails test test/models/article_test.rb
+  npx stylelint "**/*.{css,scss}"
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
-
-<!--
+GitHub Pages
 Example:
-
 ```sh
-
+git@github.com:fickryiman/fickryiman.github.io.git
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,8 +222,11 @@ Example:
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- Rich of images
+- Dynamic content
+- Add functionality of Javascript
 - Add list of my recent works / projects
+- Store data to database
+- Adding my blog related with my work experiences
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,7 +236,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [git@github.com:fickryiman/fickryiman.github.io.git](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,7 +246,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- > Write a message to encourage readers to support your project -->
 
-If you like this project...
+If you like this project please follow me on GitHub: [@fickryiman](https://github.com/fickryiman) or connect on LinkedIn: [fickry-bil-iman](https://www.linkedin.com/in/fickry-bil-iman).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -229,7 +256,7 @@ If you like this project...
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank...
+I would like to thank Allah, my Family, Microverse for all of the experiences.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,10 +278,10 @@ I would like to thank...
 
 <!-- LICENSE -->
 
-<!-- ## 📝 License <a name="license"></a>
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
