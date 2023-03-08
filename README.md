@@ -157,63 +157,48 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:fickryiman/fickryiman.github.io.git
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
   cd my-project
-  gem install
+  node install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
+run live server
 
 <!--
-Example command:
-
 ```sh
   rails server
 ```
---->
+-->
 
 ### Run tests
 
 To run tests, run the following command:
-
-<!--
-Example command:
-
+Run Github Actions Test
 ```sh
-  bin/rails test test/models/article_test.rb
+  npx stylelint "**/*.{css,scss}"
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
-
-<!--
+GitHub Pages
 Example:
-
 ```sh
-
+git@github.com:fickryiman/fickryiman.github.io.git
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,8 +222,11 @@ Example:
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- Rich of images
+- Dynamic content
+- Add functionality of Javascript
 - Add list of my recent works / projects
+- Store data to database
+- Adding my blog related with my work experiences
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,7 +236,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [git@github.com:fickryiman/fickryiman.github.io.git](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,7 +246,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- > Write a message to encourage readers to support your project -->
 
-If you like this project...
+If you like this project please follow me on github or connect on Linkedin.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,7 +256,7 @@ If you like this project...
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank...
+I would like to thank Allah, my Family, Microverse for all of the experiences.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
