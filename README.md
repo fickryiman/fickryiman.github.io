@@ -74,6 +74,7 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
     <li><a href="https://www.javascript.com/">Javascript</a></li>
   </ul>
 </details>
+<!--
 <details>
   <summary>Server Side / Back-End</summary>
   <ul>
@@ -82,6 +83,7 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
     <li><a href=""> - </a></li>
   </ul>
 </details>
+-->
 
 <!-- Features -->
 
@@ -121,6 +123,7 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 - Responsive Website
 - Button Interactions (i.e. hover, etc.)
 - Attractive Images & Design
+- Modal/dialog
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +133,7 @@ Portfolio: mobile-first approach & responsive on desktop version and bigger size
 
 <!-- > Add a link to your deployed project. -->
 
-- [Click here... for live demo link](https://fickryiman.github.io)
+- [Click here... Live demo link](https://fickryiman.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,14 +148,10 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- git version 2.38.x
+- node.js version > 12.x
+- IDE
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
