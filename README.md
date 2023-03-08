@@ -256,7 +256,7 @@ If you like this project please follow me on GitHub: [@fickryiman](https://githu
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank Allah, my Family, Microverse for all of the experiences.
+I would like thanks to Allah, Rasulullah SAW, my Families, Microverse, Micronaut, for all of the experiences.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -282,6 +282,6 @@ I would like to thank Allah, my Family, Microverse for all of the experiences.
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
