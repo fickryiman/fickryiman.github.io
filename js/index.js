@@ -117,10 +117,9 @@ function modalRendering(number) {
   modalProjectName.innerHTML = `${project.title}`;
 
   modalImageSlider.setAttribute('src', `${project.imageUrlMobile}`);
-  modalImageList.forEach(element => {
+  modalImageList.forEach((element) => {
     element.setAttribute('src', `${project.imageUrlMobile}`);
   });
-  
 }
 
 project1.addEventListener('click', () => {
