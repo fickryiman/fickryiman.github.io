@@ -172,3 +172,21 @@ detailsButtons.forEach((button) => {
 });
 
 // modal for project details
+
+// email form validation
+const formInput = document.querySelector('#getting-started-form');
+const emailInput = document.querySelector('#email-input');
+const buttonForm = document.querySelector('.button-get-started');
+const errorMessage = document.querySelector('.email-form-error-message');
+
+function showEmailValidationLowerCaseError(e) {
+  if ((emailInput.value).match(/[A-Z]/)) {
+    errorMessage.style.display = 'block';
+    e.preventDefault();
+  } else {
+    errorMessage.style.display = 'none';
+    formInput.addEventListener('submit', formInput.reset());
+  }
+}
+
+buttonForm.addEventListener('click', showEmailValidationLowerCaseError);

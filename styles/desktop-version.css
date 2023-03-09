@@ -659,6 +659,11 @@ html {
     text-align: start;
   }
 
+  .email-form-error-message {
+    padding-left: 20%;
+    font-size: 15px;
+  }
+
   .button-get-started {
     width: 50%;
     background: #1a2236;

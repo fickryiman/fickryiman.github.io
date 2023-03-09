@@ -12,8 +12,7 @@ html {
 .dot-image-1,
 .big-image-1,
 .dot-image-2,
-.img-geo-2,
-.email-form-error-message {
+.img-geo-2 {
   display: none;
 }
 
@@ -915,6 +914,13 @@ span {
   font-size: 15px;
   font-weight: 500;
   color: rgb(0, 0, 0);
+}
+
+.email-form-error-message {
+  display: none;
+  color: #f02031ef;
+  padding-left: 6%;
+  letter-spacing: 0.5px;
 }
 
 .button-get-started {
