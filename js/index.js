@@ -175,7 +175,6 @@ detailsButtons.forEach((button) => {
 
 // email form validation
 const formInput = document.querySelector('#getting-started-form');
-const formInputsTextarea = document.querySelectorAll('input, textarea');
 const emailInput = document.querySelector('#email-input');
 const buttonForm = document.querySelector('.button-get-started');
 const errorMessage = document.querySelector('.email-form-error-message');
