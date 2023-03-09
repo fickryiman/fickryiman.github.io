@@ -176,10 +176,10 @@ detailsButtons.forEach((button) => {
 // email form validation
 const emailInput = document.querySelector('#email-input');
 const buttonForm = document.querySelector('.button-get-started');
-const errorMessage = document.querySelector('.email-form-error-message')
+const errorMessage = document.querySelector('.email-form-error-message');
 
 function showEmailValidationLowerCaseError(e) {
-  if ( Boolean((emailInput.value).match(/[A-Z]/)) ) {
+  if ((emailInput.value).match(/[A-Z]/)) {
     errorMessage.style.display = 'block';
     e.preventDefault();
   } else {
@@ -188,6 +188,3 @@ function showEmailValidationLowerCaseError(e) {
 }
 
 buttonForm.addEventListener('click', showEmailValidationLowerCaseError);
-
-
-
