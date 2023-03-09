@@ -175,9 +175,20 @@ detailsButtons.forEach((button) => {
 
 // email form validation
 const formInput = document.querySelector('#getting-started-form');
+const nameInput = document.querySelector('#name-input');
+const textareaInput = document.querySelector('#textarea-input');
 const emailInput = document.querySelector('#email-input');
 const buttonForm = document.querySelector('.button-get-started');
 const errorMessage = document.querySelector('.email-form-error-message');
+
+
+function populateStorage() {
+  let localStorageObject = {};
+  localStorageObject.name = nameInput.value;
+  localStorageObject.email = emailInput.value;
+  localStorageObject.message = textareaInput.value;
+  localStorage.setItem('formInput', JSON.stringify(localStorageObject));
+}
 
 function showEmailValidationLowerCaseError(e) {
   if ((emailInput.value).match(/[A-Z]/)) {
@@ -185,6 +196,8 @@ function showEmailValidationLowerCaseError(e) {
     e.preventDefault();
   } else {
     errorMessage.style.display = 'none';
+    populateStorage();
+    formInput.submit();
     formInput.addEventListener('submit', formInput.reset());
   }
 }
