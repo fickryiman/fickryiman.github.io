@@ -12,7 +12,8 @@ html {
 .dot-image-1,
 .big-image-1,
 .dot-image-2,
-.img-geo-2 {
+.img-geo-2,
+.email-form-error-message {
   display: none;
 }
 
@@ -526,6 +527,7 @@ span {
 
 .x-cross-modal {
   padding: 5%;
+  cursor: pointer;
 }
 
 .modal-project-name {
