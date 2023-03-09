@@ -12,7 +12,8 @@ html {
 .dot-image-1,
 .big-image-1,
 .dot-image-2,
-.img-geo-2 {
+.img-geo-2,
+.email-form-error-message {
   display: none;
 }
 
@@ -506,14 +507,37 @@ span {
 }
 
 /* modal project details */
+.modal-project {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgba(255, 255, 255, 1); /* Black w/ opacity */
+}
+
+.modal-x-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.x-cross-modal {
+  padding: 5%;
+  cursor: pointer;
+}
+
 .modal-project-name {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 28px;
   line-height: 80%;
   letter-spacing: 0.02em;
   color: #1a2236;
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10%;
   text-align: center;
 }
 
@@ -522,8 +546,8 @@ span {
   flex-direction: row;
   width: auto;
   font-style: normal;
-  font-weight: 300;
-  font-size: 11px;
+  font-weight: 400;
+  font-size: 13px;
   line-height: 80%;
   color: #1a2236;
   justify-content: space-evenly;
@@ -536,6 +560,7 @@ span {
   padding: 10px 15px 10px 15px;
   letter-spacing: 0.1em;
   width: fit-content;
+  border: 1px solid #1a2236;
 }
 
 .modal-stack:hover {
@@ -545,6 +570,89 @@ span {
   color: #fff;
   border: 1px solid #fff;
   font-weight: 500;
+}
+
+.modal-img-slider {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-img-slider-big {
+  margin-top: 7%;
+  width: 95%;
+  height: auto;
+}
+
+.modal-img-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.modal-img-list-small {
+  width: 22.7%;
+  height: auto;
+}
+
+.modal-img-list-small:hover {
+  border: 3px solid black;
+  gap: 0;
+}
+
+.modal-project-details-text {
+  text-align: justify;
+  padding: 5% 5% 0;
+}
+
+.modal-project-details-text-h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.modal-buttons-p {
+  border: 1px solid #1a2236;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 5%;
+}
+
+.modal-buttons-p:hover {
+  background: rgba(190, 218, 244, 0.811);
+  border: 2px solid #fff;
+}
+
+.modal-img-ic-link {
+  width: 30px;
+  height: auto;
+  margin-right: -70px;
+  margin-bottom: -5px;
+  padding-left: 70px;
+}
+
+.modal-img-ic-github {
+  width: 30px;
+  height: auto;
+  margin-right: -50px;
+  margin-bottom: -5px;
+  padding-left: 50px;
+}
+
+.left-right-arrow-project {
+  display: none;
 }
 
 /* about css start here */
