@@ -176,7 +176,6 @@ detailsButtons.forEach((button) => {
 // email form validation
 const formInput = document.querySelector('#getting-started-form');
 const formInputsTextarea = document.querySelectorAll('input, textarea');
-console.log(formInputsTextarea)
 const emailInput = document.querySelector('#email-input');
 const buttonForm = document.querySelector('.button-get-started');
 const errorMessage = document.querySelector('.email-form-error-message');
@@ -187,9 +186,7 @@ function showEmailValidationLowerCaseError(e) {
     e.preventDefault();
   } else {
     errorMessage.style.display = 'none';
-    formInput.addEventListener('submit', (e) => {
-      formInput.reset();
-    });
+    formInput.addEventListener('submit', formInput.reset());
   }
 }
 
