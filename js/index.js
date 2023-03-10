@@ -181,9 +181,8 @@ const emailInput = document.querySelector('#email-input');
 const buttonForm = document.querySelector('.button-get-started');
 const errorMessage = document.querySelector('.email-form-error-message');
 
-
 function populateStorage() {
-  let localStorageObject = {};
+  const localStorageObject = {};
   localStorageObject.name = nameInput.value;
   localStorageObject.email = emailInput.value;
   localStorageObject.message = textareaInput.value;
