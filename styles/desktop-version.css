@@ -100,6 +100,7 @@ html {
     height: auto;
     justify-self: end;
     align-self: end;
+    padding-right: 10px;
   }
 
   .big-image-1 {
@@ -188,6 +189,7 @@ html {
     height: auto;
     justify-self: first baseline;
     align-self: self-start;
+    margin-left: -10px;
   }
 
   .projects-section > div:nth-child(4) {
