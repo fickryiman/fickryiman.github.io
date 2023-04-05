@@ -18,10 +18,6 @@ hamburger.addEventListener('click', displayMobileMenu);
 xButton.addEventListener('click', hideMobileMenu);
 mobileNav.addEventListener('click', hideMobileMenu);
 
-function gotoLive(url) {
-  location.href=url;
-}
-
 // modal for project details
 const projects = [
   {
@@ -52,7 +48,7 @@ const projects = [
     imageUrlDesktop: '',
     descriptions: '"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. Built with Javascript, HTML & CSS.',
     seeLive: 'https://fickryiman.github.io/awesome-books/',
-    seeSource: 'https://github.com/fickryiman/awesome-books',,
+    seeSource: 'https://github.com/fickryiman/awesome-books',
   },
   {
     number: 4,
@@ -71,7 +67,7 @@ const projects = [
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     imageUrlMobile: 'screenshot/todo-list-2.png',
     imageUrlDesktop: '',
-    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    descriptions: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.',
     seeLive: 'https://fickryiman.github.io/ToDo-List/',
     seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
@@ -81,7 +77,7 @@ const projects = [
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     imageUrlMobile: 'screenshot/todo-list-2.png',
     imageUrlDesktop: '',
-    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    descriptions: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.',
     seeLive: 'https://fickryiman.github.io/ToDo-List/',
     seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
@@ -91,7 +87,7 @@ const projects = [
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     imageUrlMobile: 'screenshot/todo-list-2.png',
     imageUrlDesktop: '',
-    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    descriptions: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.',
     seeLive: 'https://fickryiman.github.io/ToDo-List/',
     seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
@@ -110,8 +106,8 @@ const modalProjectName = document.querySelector('.modal-project-name');
 const modalImageSlider = document.querySelector('.modal-img-slider-big');
 const modalImageList = document.querySelectorAll('.modal-img-list-small');
 const modalDescriptions = document.querySelector('.modal-project-details-text-h3');
-const seeLive = document. querySelector('.see-live');
-const seeSource = document. querySelector('.see-source');
+const seeLive = document.querySelector('.see-live');
+const seeSource = document.querySelector('.see-source');
 
 function modalRendering(number) {
   const project = projects[number];
@@ -124,7 +120,7 @@ function modalRendering(number) {
   modalDescriptions.textContent = `${project.descriptions}`;
 
   seeLive.href = `${project.seeLive}`;
-  seeSource.href= `${project.seeSource}`;
+  seeSource.href = `${project.seeSource}`;
 }
 
 project1.addEventListener('click', () => {
@@ -168,8 +164,6 @@ function closeModalProjectDetails() {
 
 const xModalButton = document.querySelector('.x-cross-modal');
 xModalButton.addEventListener('click', closeModalProjectDetails);
-
-
 
 // const detailsButtons = document.querySelectorAll('.modal-buttons-p');
 // detailsButtons.forEach((button) => {
