@@ -4,7 +4,7 @@ html {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   color: #1a2236;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 @media screen and (min-device-width: 768px),
@@ -222,7 +222,7 @@ html {
     color: #fff;
     margin-top: -16.5vh;
     padding-top: 3.5vh;
-    padding-left: 5%;
+    /* padding-left: 5%; */
   }
 
   .projects-section > div:nth-child(4) > div > .stack-list {
@@ -230,7 +230,7 @@ html {
     flex-direction: row;
     list-style: none;
     gap: 4%;
-    padding-left: 5%;
+    /* padding-left: 5%; */
   }
 
   .projects-section > div:nth-child(4) > div > .stack-list li {
@@ -242,7 +242,7 @@ html {
   .projects-section > div:nth-child(4) > div > button {
     background: #fff;
     color: #1a2236;
-    margin: 5% 0 5% 4%;
+    margin: 5% 0;
     padding: 1.5% 3.5%;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
