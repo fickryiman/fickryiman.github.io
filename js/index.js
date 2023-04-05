@@ -18,10 +18,6 @@ hamburger.addEventListener('click', displayMobileMenu);
 xButton.addEventListener('click', hideMobileMenu);
 mobileNav.addEventListener('click', hideMobileMenu);
 
-function gotoLive(url) {
-  location.href=url;
-}
-
 // modal for project details
 const projects = [
   {
@@ -36,25 +32,23 @@ const projects = [
   },
   {
     number: 2,
-    title: 'Project name goes here',
+    title: 'Awesome Books',
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    imageUrlMobile: 'images/Rectangle46.png',
-    imageUrlDesktop: 'images/Rectangle_21_6.png',
-    descriptions: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    ],
+    imageUrlMobile: 'screenshot/awesome-books.png',
+    imageUrlDesktop: 'screenshot/awesome-books.png',
+    descriptions: '"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. Built with Javascript, HTML & CSS.',
+    seeLive: 'https://fickryiman.github.io/awesome-books/',
+    seeSource: 'https://github.com/fickryiman/awesome-books',
   },
   {
     number: 3,
-    title: 'Project name goes here',
+    title: 'Awesome Books',
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     imageUrlMobile: 'images/Rectangle27.png',
     imageUrlDesktop: '',
-    descriptions: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    ],
+    descriptions: '"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. Built with Javascript, HTML & CSS.',
+    seeLive: 'https://fickryiman.github.io/awesome-books/',
+    seeSource: 'https://github.com/fickryiman/awesome-books',
   },
   {
     number: 4,
@@ -73,7 +67,7 @@ const projects = [
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     imageUrlMobile: 'screenshot/todo-list-2.png',
     imageUrlDesktop: '',
-    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    descriptions: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.',
     seeLive: 'https://fickryiman.github.io/ToDo-List/',
     seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
@@ -83,7 +77,7 @@ const projects = [
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     imageUrlMobile: 'screenshot/todo-list-2.png',
     imageUrlDesktop: '',
-    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    descriptions: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.',
     seeLive: 'https://fickryiman.github.io/ToDo-List/',
     seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
@@ -93,7 +87,7 @@ const projects = [
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     imageUrlMobile: 'screenshot/todo-list-2.png',
     imageUrlDesktop: '',
-    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    descriptions: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.',
     seeLive: 'https://fickryiman.github.io/ToDo-List/',
     seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
@@ -112,8 +106,8 @@ const modalProjectName = document.querySelector('.modal-project-name');
 const modalImageSlider = document.querySelector('.modal-img-slider-big');
 const modalImageList = document.querySelectorAll('.modal-img-list-small');
 const modalDescriptions = document.querySelector('.modal-project-details-text-h3');
-const seeLive = document. querySelector('.see-live');
-const seeSource = document. querySelector('.see-source');
+const seeLive = document.querySelector('.see-live');
+const seeSource = document.querySelector('.see-source');
 
 function modalRendering(number) {
   const project = projects[number];
@@ -126,7 +120,7 @@ function modalRendering(number) {
   modalDescriptions.textContent = `${project.descriptions}`;
 
   seeLive.href = `${project.seeLive}`;
-  seeSource.href= `${project.seeSource}`;
+  seeSource.href = `${project.seeSource}`;
 }
 
 project1.addEventListener('click', () => {
@@ -170,8 +164,6 @@ function closeModalProjectDetails() {
 
 const xModalButton = document.querySelector('.x-cross-modal');
 xModalButton.addEventListener('click', closeModalProjectDetails);
-
-
 
 // const detailsButtons = document.querySelectorAll('.modal-buttons-p');
 // detailsButtons.forEach((button) => {

@@ -222,6 +222,7 @@ html {
     color: #fff;
     margin-top: -16.5vh;
     padding-top: 3.5vh;
+
     /* padding-left: 5%; */
   }
 
@@ -230,6 +231,7 @@ html {
     flex-direction: row;
     list-style: none;
     gap: 4%;
+
     /* padding-left: 5%; */
   }
 
@@ -313,6 +315,7 @@ html {
     height: auto;
     object-fit: fill;
     align-self: end;
+
     /* margin-left: 9px; */
   }
 
@@ -332,6 +335,7 @@ html {
     grid-column: 1 / 5;
     justify-content: space-between;
     height: 30%;
+
     /* margin-right: -9px; */
   }
 
@@ -341,6 +345,7 @@ html {
     height: auto;
     object-fit: cover;
     margin-top: -1px;
+
     /* margin-left: 9px; */
   }
 
