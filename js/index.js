@@ -18,18 +18,21 @@ hamburger.addEventListener('click', displayMobileMenu);
 xButton.addEventListener('click', hideMobileMenu);
 mobileNav.addEventListener('click', hideMobileMenu);
 
+function gotoLive(url) {
+  location.href=url;
+}
+
 // modal for project details
 const projects = [
   {
     number: 1,
-    title: 'Project name goes here',
+    title: 'Community website',
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    imageUrlMobile: 'images/Rectangle_21.png',
+    imageUrlMobile: 'screenshot/conference-website.png',
     imageUrlDesktop: '',
-    descriptions: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    ],
+    descriptions: 'This project is about creating a responsive website to showcase community event, activities and agenda.',
+    seeLive: 'https://fickryiman.github.io/capstone-project-one',
+    seeSource: 'https://github.com/fickryiman/capstone-project-one',
   },
   {
     number: 2,
@@ -77,14 +80,13 @@ const projects = [
   },
   {
     number: 6,
-    title: 'Project name goes here',
+    title: 'Todo List App',
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    imageUrlMobile: 'images/Rectangle_21_5.png',
+    imageUrlMobile: 'screenshot/todo-list-2.png',
     imageUrlDesktop: '',
-    descriptions: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    ],
+    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    seeLive: 'https://fickryiman.github.io/ToDo-List/',
+    seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
   {
     number: 7,
@@ -111,6 +113,9 @@ const project7 = document.querySelector('.project-7');
 const modalProjectName = document.querySelector('.modal-project-name');
 const modalImageSlider = document.querySelector('.modal-img-slider-big');
 const modalImageList = document.querySelectorAll('.modal-img-list-small');
+const modalDescriptions = document.querySelector('.modal-project-details-text-h3');
+const seeLive = document. querySelector('.see-live');
+const seeSource = document. querySelector('.see-source');
 
 function modalRendering(number) {
   const project = projects[number];
@@ -120,6 +125,10 @@ function modalRendering(number) {
   modalImageList.forEach((element) => {
     element.setAttribute('src', `${project.imageUrlMobile}`);
   });
+  modalDescriptions.textContent = `${project.descriptions}`;
+
+  seeLive.href = `${project.seeLive}`;
+  seeSource.href= `${project.seeSource}`;
 }
 
 project1.addEventListener('click', () => {
@@ -162,14 +171,14 @@ function closeModalProjectDetails() {
 }
 
 const xModalButton = document.querySelector('.x-cross-modal');
-
-const detailsButtons = document.querySelectorAll('.modal-buttons-p');
-
 xModalButton.addEventListener('click', closeModalProjectDetails);
 
-detailsButtons.forEach((button) => {
-  button.addEventListener('click', closeModalProjectDetails);
-});
+
+
+// const detailsButtons = document.querySelectorAll('.modal-buttons-p');
+// detailsButtons.forEach((button) => {
+//   button.addEventListener('click', closeModalProjectDetails);
+// });
 
 // modal for project details
 

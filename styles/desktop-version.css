@@ -242,7 +242,7 @@ html {
   .projects-section > div:nth-child(4) > div > button {
     background: #fff;
     color: #1a2236;
-    margin: 5% 0;
+    margin-bottom: 5%;
     padding: 1.5% 3.5%;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -389,6 +389,7 @@ html {
     gap: 1.5vw;
     padding-left: 0;
     margin-left: 3%;
+    padding-top: 3%;
   }
 
   .projects-section > div:nth-child(9) > .project-info > .stack-list > .stack {
@@ -414,6 +415,7 @@ html {
     border: 1px solid #fff;
     padding: 1%;
     margin-left: 3%;
+    cursor: pointer;
   }
 
   .projects-section > div:nth-child(9) > .project-info > button:hover {
