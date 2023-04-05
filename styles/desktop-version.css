@@ -4,6 +4,7 @@ html {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   color: #1a2236;
+  border: 1px solid black;
 }
 
 @media screen and (min-device-width: 768px),
@@ -300,7 +301,7 @@ html {
 
   .projects-section > div:nth-child(6) > .project-img-rectangle {
     grid-column: 1 / 5;
-    width: 102%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
   }
@@ -312,7 +313,7 @@ html {
     height: auto;
     object-fit: fill;
     align-self: end;
-    margin-left: 9px;
+    /* margin-left: 9px; */
   }
 
   .projects-section > div:nth-child(6) > .project-info {
@@ -331,7 +332,7 @@ html {
     grid-column: 1 / 5;
     justify-content: space-between;
     height: 30%;
-    margin-right: -9px;
+    /* margin-right: -9px; */
   }
 
   .projects-section > div:nth-child(7) > .project-img-rectangle {
@@ -340,7 +341,7 @@ html {
     height: auto;
     object-fit: cover;
     margin-top: -1px;
-    margin-left: 9px;
+    /* margin-left: 9px; */
   }
 
   .projects-section > div:nth-child(7) > .project-info {
@@ -360,7 +361,7 @@ html {
     height: auto;
     position: relative;
     top: -58.5%;
-    right: -50%;
+    right: -45%;
   }
 
   .projects-section > div:nth-child(9) > .project-img-rectangle {
