@@ -69,14 +69,13 @@ const projects = [
   },
   {
     number: 5,
-    title: 'Project name goes here',
+    title: 'Todo List App',
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    imageUrlMobile: 'images/Rectangle_21_5.png',
+    imageUrlMobile: 'screenshot/todo-list-2.png',
     imageUrlDesktop: '',
-    descriptions: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    ],
+    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    seeLive: 'https://fickryiman.github.io/ToDo-List/',
+    seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
   {
     number: 6,
@@ -90,14 +89,13 @@ const projects = [
   },
   {
     number: 7,
-    title: 'Project name goes here',
+    title: 'Todo List App',
     techStack: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
-    imageUrlMobile: 'images/Rectangle_21_6.png',
-    imageUrlDesktop: 'images/Rectangle_21_6.png',
-    descriptions: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    ],
+    imageUrlMobile: 'screenshot/todo-list-2.png',
+    imageUrlDesktop: '',
+    descriptions: `"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with Javascript, HTML & CSS.`,
+    seeLive: 'https://fickryiman.github.io/ToDo-List/',
+    seeSource: 'https://github.com/fickryiman/ToDo-List',
   },
 ];
 
